@@ -10,12 +10,12 @@
 		7C9920C76F3DB538FBE36C08 /* libPods-ApiManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EDBC3FF2E6D91AF23E16D0 /* libPods-ApiManager.a */; };
 		8E0DA578253CEEEE00AA0DB2 /* AttributeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0DA577253CEEEE00AA0DB2 /* AttributeCell.swift */; };
 		8E245E59253D551100BCC3F3 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E245E58253D551100BCC3F3 /* SearchCell.swift */; };
-		8E245E5B253D5DD200BCC3F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E245E5A253D5DD200BCC3F3 /* Assets.xcassets */; };
 		8E245E5D253D624E00BCC3F3 /* StartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E245E5C253D624E00BCC3F3 /* StartVC.swift */; };
 		8E3C5EA8253AAE97008A2636 /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3C5EA7253AAE97008A2636 /* ProductVC.swift */; };
 		8E3C5EAA253AC182008A2636 /* MLSeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3C5EA9253AC182008A2636 /* MLSeller.swift */; };
 		8E3C5EAC253AC483008A2636 /* MLRep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3C5EAB253AC483008A2636 /* MLRep.swift */; };
 		8E3C5EAE253AC9D1008A2636 /* MLAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3C5EAD253AC9D1008A2636 /* MLAttributes.swift */; };
+		8E877574253E6DD00088C6B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E877573253E6DCF0088C6B2 /* Assets.xcassets */; };
 		8EC16D7C253E623500900004 /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC16D7B253E623500900004 /* RootVC.swift */; };
 		8EEB4804253680D600F519FA /* ApiManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEB47FB253680D600F519FA /* ApiManager.framework */; };
 		8EEB480B253680D600F519FA /* ApiManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEB480A253680D600F519FA /* ApiManagerTests.swift */; };
@@ -90,12 +90,12 @@
 		81562817B736A527637EFA06 /* Pods-ApiManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiManager.release.xcconfig"; path = "Target Support Files/Pods-ApiManager/Pods-ApiManager.release.xcconfig"; sourceTree = "<group>"; };
 		8E0DA577253CEEEE00AA0DB2 /* AttributeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeCell.swift; sourceTree = "<group>"; };
 		8E245E58253D551100BCC3F3 /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
-		8E245E5A253D5DD200BCC3F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
 		8E245E5C253D624E00BCC3F3 /* StartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartVC.swift; sourceTree = "<group>"; };
 		8E3C5EA7253AAE97008A2636 /* ProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
 		8E3C5EA9253AC182008A2636 /* MLSeller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLSeller.swift; sourceTree = "<group>"; };
 		8E3C5EAB253AC483008A2636 /* MLRep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLRep.swift; sourceTree = "<group>"; };
 		8E3C5EAD253AC9D1008A2636 /* MLAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLAttributes.swift; sourceTree = "<group>"; };
+		8E877573253E6DCF0088C6B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		8EC16D7B253E623500900004 /* RootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
 		8EEB47FB253680D600F519FA /* ApiManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ApiManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EEB47FD253680D600F519FA /* ApiManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiManager.h; sourceTree = "<group>"; };
@@ -264,7 +264,7 @@
 				8E3C5EA7253AAE97008A2636 /* ProductVC.swift */,
 				8E245E5C253D624E00BCC3F3 /* StartVC.swift */,
 				8EFB1D3725365F5D00820E9B /* Main.storyboard */,
-				8E245E5A253D5DD200BCC3F3 /* Assets.xcassets */,
+				8E877573253E6DCF0088C6B2 /* Assets.xcassets */,
 				8EFB1D3C25365F5F00820E9B /* LaunchScreen.storyboard */,
 				8EFB1D3F25365F5F00820E9B /* Info.plist */,
 				8EC16D7B253E623500900004 /* RootVC.swift */,
@@ -470,7 +470,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EFB1D3E25365F5F00820E9B /* LaunchScreen.storyboard in Resources */,
-				8E245E5B253D5DD200BCC3F3 /* Assets.xcassets in Resources */,
+				8E877574253E6DD00088C6B2 /* Assets.xcassets in Resources */,
 				8EFB1D3925365F5D00820E9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
